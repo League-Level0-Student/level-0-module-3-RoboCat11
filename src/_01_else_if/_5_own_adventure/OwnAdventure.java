@@ -13,11 +13,7 @@ public class OwnAdventure {
 		  if(input2.equals("Gas station")){
            JOptionPane.showMessageDialog(null,"Mom decided they should go to the gas station. So they started driving and tried to make it there; luckily they got there, and then she purchased a hotel, and was able to get home safely.																														THE END!!!");	
 		   if(input2.equals("Hotel")) {
-				JOptionPane.showMessageDialog(null,"Mom decided she should purchase a hotel, so she got on her phone, and started looking for the closest hotels to the Sahara desert. However, she forgot to turn off the car! So when she finally saw and picked the hotel, she was going to start driving, but she found out the car was dead.\n																																						THE END!!!");		
-		   
-		   		
-	      		if(input1.equals("Car")) {
-			        JOptionPane.showMessageDialog(null,"They decided to go to the car so they could rest when they got there too. So they walked and walked; Mana kept on humming all the way there until he eventually ran out of breath. Alo was closer to the car than Mom and Mana, so when she cam close enough, she sprinted there, but looked in the window and found that there was no water! Meanwhile, Mana and Mom were too tired and fainted. Alo feeling very dizzy, fainted just like the others, and they all died of thirst.\n																										                 					THE END!!!");	
+				JOptionPane.showMessageDialog(null,"Mom decided she should purchase a hotel, so she got on her phone, and started looking for the closest hotels to the Sahara desert. However, she forgot to turn off the car! So when she finally saw and picked the hotel, she was going to start driving, but she found out the car was dead.\n																																						THE END!!!");																									                 					THE END!!!");	
 			 		
 		            if (input.equals("They should all just stay home")) {
 		            JOptionPane.showMessageDialog(null,"Mom decided they should all just stay home, so they continued to do schoolwork and do workouts with their Auntie.\n But it was nice when they did workouts with their Auntie because would always give them a treat afterwards, like ice cream!\n																																																																																														THE END!!!");
@@ -26,6 +22,9 @@ public class OwnAdventure {
        }
       }
      }
+		 if(input1.equals("Car")) {
+			 JOptionPane.showMessageDialog(null,"They decided to go to the car so they could rest when they got there too. So they walked and walked; Mana kept on humming all the way there until he eventually ran out of breath. Alo was closer to the car than Mom and Mana, so when she came close enough, she sprinted there, but looked in the window just to find out there was no water! Meanwhile, Mana and Mom were too tired and dehydrated, causing them to faint and die. 												THE END!! ");
+		 }
     }
    }
   }
